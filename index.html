@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ottima | Benessere a Misura di Bambino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+  </head>
+  <body class="bg-white text-gray-900 antialiased">
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
+      <div class="max-w-screen-xl mx-auto px-6 py-4 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="text-2xl font-extrabold tracking-widest uppercase text-gray-900">Ottima</a>
+
+        <!-- Nav links (desktop) -->
+        <div class="hidden md:flex items-center gap-10">
+          <a href="#chi-siamo" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Chi siamo</a>
+          <a href="#prodotti" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Prodotti</a>
+          <a href="#blog" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">Per te, mamma</a>
+        </div>
+
+        <!-- CTA -->
+        <a href="#" class="hidden md:inline-flex items-center gap-2 text-sm font-semibold text-white bg-gray-900 hover:bg-gray-700 px-6 py-2.5 rounded-full transition-colors">
+          Vai allo shop
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button data-collapse-toggle="mobile-menu" type="button" class="md:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 px-6 pb-4">
+        <a href="#chi-siamo" class="block py-3 text-sm font-medium text-gray-600 hover:text-gray-900">Chi siamo</a>
+        <a href="#prodotti" class="block py-3 text-sm font-medium text-gray-600 hover:text-gray-900">Prodotti</a>
+        <a href="#blog" class="block py-3 text-sm font-medium text-gray-600 hover:text-gray-900">Per te, mamma</a>
+        <a href="#" class="mt-2 block text-sm font-semibold text-white bg-gray-900 text-center px-6 py-2.5 rounded-full">Vai allo shop</a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="relative overflow-hidden">
+      <img src="https://placehold.co/1920x900/d4c5b0/888888?text=Hero+Image" alt="Hero" class="w-full h-[85vh] object-cover" />
+      <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center px-6">
+        <p class="text-xs font-semibold uppercase tracking-widest text-white/70 mb-4">Benessere a Misura di Bambino</p>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight max-w-4xl">
+          Ottima, l'amore,<br />per l'amore,<br />per l'amore…
+        </h1>
+        <p class="mt-6 text-base md:text-lg text-white/80 max-w-xl">
+          Mettiamo l'amore nel ricercare e offrire qualità alle famiglie, con una promessa costante per il benessere dei bambini.
+        </p>
+        <a href="#chi-siamo" class="mt-8 inline-flex items-center gap-2 bg-white text-gray-900 font-semibold px-8 py-3.5 rounded-full hover:bg-gray-100 transition-colors">
+          Scopri di più
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== CHI SIAMO ===== -->
+    <section id="chi-siamo" class="py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Chi siamo</p>
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 max-w-xl leading-snug">
+            Una promessa d'amore per le famiglie, un impegno costante per il benessere dei bambini.
+          </h2>
+          <a href="#" class="self-start md:self-auto inline-flex items-center gap-2 text-sm font-semibold text-gray-900 border-b-2 border-gray-900 pb-0.5 hover:text-gray-600 hover:border-gray-600 transition-colors whitespace-nowrap">
+            Scopri la nostra storia
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x520/e8ddd0/888888?text=La+nostra+storia" alt="La nostra storia" class="w-full h-72 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <span class="text-white font-semibold text-sm">La nostra storia</span>
+            </div>
+          </a>
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x520/dde8d0/888888?text=I+nostri+valori" alt="I nostri valori" class="w-full h-72 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <span class="text-white font-semibold text-sm">I nostri valori</span>
+            </div>
+          </a>
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x520/d0dde8/888888?text=La+ricerca" alt="La ricerca" class="w-full h-72 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <span class="text-white font-semibold text-sm">La ricerca</span>
+            </div>
+          </a>
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x520/e8d0d0/888888?text=Sostenibilit%C3%A0" alt="Sostenibilità" class="w-full h-72 md:h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <span class="text-white font-semibold text-sm">Sostenibilità</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODOTTI ===== -->
+    <section id="prodotti" class="bg-gray-50 py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Prodotti</p>
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 max-w-xl leading-snug">
+            Le nostre linee di prodotto
+          </h2>
+          <a href="#" class="self-start md:self-auto inline-flex items-center gap-2 text-sm font-semibold text-gray-900 border-b-2 border-gray-900 pb-0.5 hover:text-gray-600 hover:border-gray-600 transition-colors whitespace-nowrap">
+            Vai allo shop
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Product grid: mixed sizes for visual interest -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+          <!-- Large tile (spans 2 cols) -->
+          <a href="#" class="relative group overflow-hidden rounded-2xl col-span-2 block">
+            <img src="https://placehold.co/800x420/f5f0ea/888888?text=BBmilk" alt="BBmilk" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-6">
+              <div>
+                <span class="text-white font-bold text-base block">BBmilk</span>
+                <span class="text-white/70 text-xs">Latte per lattanti</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/eaf5ea/888888?text=Gastrointestinale" alt="Gastrointestinale" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Gastrointestinale</span>
+                <span class="text-white/70 text-xs">Benessere digestivo</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/eaf0f5/888888?text=Respiratorio" alt="Respiratorio" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Respiratorio</span>
+                <span class="text-white/70 text-xs">Salute respiratoria</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/f5f5ea/888888?text=Crescita" alt="Crescita" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Crescita e sviluppo</span>
+                <span class="text-white/70 text-xs">Supporto alla crescita</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/f5eaf5/888888?text=Difese+immunitarie" alt="Difese immunitarie" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Difese immunitarie</span>
+                <span class="text-white/70 text-xs">Supporto immunitario</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Large tile (spans 2 cols) -->
+          <a href="#" class="relative group overflow-hidden rounded-2xl col-span-2 block">
+            <img src="https://placehold.co/800x420/eaf5f0/888888?text=Stanchezza+e+affaticamento" alt="Stanchezza" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-6">
+              <div>
+                <span class="text-white font-bold text-base block">Stanchezza e affaticamento</span>
+                <span class="text-white/70 text-xs">Energia e vitalità</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/eaebf5/888888?text=Sonno+e+calma" alt="Sonno e calma" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Sonno e calma</span>
+                <span class="text-white/70 text-xs">Relax e riposo</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/f5eaeb/888888?text=Mamma" alt="Mamma" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Per la mamma</span>
+                <span class="text-white/70 text-xs">Cura materna</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/f0eaf5/888888?text=Dermatologia" alt="Dermatologia" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Dermatologia</span>
+                <span class="text-white/70 text-xs">Cura della pelle</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/f5f0ea/888888?text=D-topic+Pannolini" alt="D-topic pannolini" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">D-topic Pannolini</span>
+                <span class="text-white/70 text-xs">Comfort e innovazione</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="relative group overflow-hidden rounded-2xl block">
+            <img src="https://placehold.co/400x420/eaf5f5/888888?text=Protezione+solare" alt="Protezione solare" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-white font-bold text-sm block">Protezione solare</span>
+                <span class="text-white/70 text-xs">Crema solare</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED: BBmilk ===== -->
+    <section class="py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">In evidenza</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              BBmilk: l'unico latte per lattanti biologico e italiano.
+            </h2>
+            <p class="text-gray-500 leading-relaxed mb-8">
+              BBmilk è il latte per lattanti biologico proveniente da una filiera italiana certificata. Ogni goccia racconta una storia di cura, qualità e amore per il benessere dei più piccoli.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 bg-gray-900 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-gray-700 transition-colors">
+              Scopri BBmilk
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </div>
+          <div class="rounded-3xl overflow-hidden">
+            <img src="https://placehold.co/700x500/f5f0ea/888888?text=BBmilk+Product" alt="BBmilk" class="w-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED: D-topic ===== -->
+    <section class="bg-gray-50 py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="rounded-3xl overflow-hidden order-2 md:order-1">
+            <img src="https://placehold.co/700x500/f0eaf5/888888?text=D-topic+Pannolini" alt="D-topic pannolini" class="w-full object-cover" />
+          </div>
+          <div class="order-1 md:order-2">
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">In evidenza</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              D-topic pannolini: innovazione e comfort senza precedenti.
+            </h2>
+            <p class="text-gray-500 leading-relaxed mb-8">
+              I pannolini D-topic rappresentano un salto qualitativo nel benessere del bambino. Progettati per pelli sensibili, combinano innovazione tecnologica e materiali naturali per il massimo comfort.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 bg-gray-900 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-gray-700 transition-colors">
+              Scopri D-topic
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED: Protezione Solare ===== -->
+    <section class="py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">In evidenza</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              Crema solare: protezione delicata per la pelle dei bambini.
+            </h2>
+            <p class="text-gray-500 leading-relaxed mb-8">
+              La nostra crema solare è formulata appositamente per la pelle delicata dei più piccoli. Formula water-resistant, ipoallergenica e testata dermatologicamente.
+            </p>
+            <a href="#" class="inline-flex items-center gap-2 bg-gray-900 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-gray-700 transition-colors">
+              Scopri la protezione solare
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </div>
+          <div class="rounded-3xl overflow-hidden">
+            <img src="https://placehold.co/700x500/eaf5f5/888888?text=Protezione+Solare" alt="Protezione solare" class="w-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOG: PER TE, MAMMA ===== -->
+    <section id="blog" class="bg-gray-50 py-20 px-6">
+      <div class="max-w-screen-xl mx-auto">
+        <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Per te, mamma</p>
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 max-w-md leading-snug">
+            Consigli, storie e risorse per ogni mamma.
+          </h2>
+          <a href="#" class="self-start md:self-auto inline-flex items-center gap-2 text-sm font-semibold text-gray-900 border-b-2 border-gray-900 pb-0.5 hover:text-gray-600 hover:border-gray-600 transition-colors whitespace-nowrap">
+            Leggi tutti gli articoli
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <a href="#" class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow block">
+            <div class="overflow-hidden">
+              <img src="https://placehold.co/400x280/f5eaf0/888888?text=Essere+mamma" alt="Essere mamma" class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <span class="text-xs font-semibold uppercase tracking-widest text-gray-400">Categoria</span>
+              <h3 class="mt-2 font-bold text-gray-900 text-base leading-snug group-hover:text-gray-600 transition-colors">Essere mamma</h3>
+              <p class="mt-2 text-sm text-gray-500 line-clamp-2">Riflessioni, emozioni e consigli per vivere la maternità con serenità e consapevolezza.</p>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow block">
+            <div class="overflow-hidden">
+              <img src="https://placehold.co/400x280/eaf0f5/888888?text=Ora+della+nanna" alt="Ora della nanna" class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <span class="text-xs font-semibold uppercase tracking-widest text-gray-400">Categoria</span>
+              <h3 class="mt-2 font-bold text-gray-900 text-base leading-snug group-hover:text-gray-600 transition-colors">Ora della nanna</h3>
+              <p class="mt-2 text-sm text-gray-500 line-clamp-2">Strategie e rituali per aiutare il tuo bambino a dormire meglio e più serenamente.</p>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow block">
+            <div class="overflow-hidden">
+              <img src="https://placehold.co/400x280/f5f5ea/888888?text=Pappa+e+dintorni" alt="Pappa e dintorni" class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <span class="text-xs font-semibold uppercase tracking-widest text-gray-400">Categoria</span>
+              <h3 class="mt-2 font-bold text-gray-900 text-base leading-snug group-hover:text-gray-600 transition-colors">Pappa e dintorni</h3>
+              <p class="mt-2 text-sm text-gray-500 line-clamp-2">Tutto quello che c'è da sapere sull'alimentazione del bambino, dallo svezzamento in poi.</p>
+            </div>
+          </a>
+
+          <a href="#" class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow block">
+            <div class="overflow-hidden">
+              <img src="https://placehold.co/400x280/eaf5ea/888888?text=Crescere+insieme" alt="Crescere insieme" class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+            <div class="p-5">
+              <span class="text-xs font-semibold uppercase tracking-widest text-gray-400">Categoria</span>
+              <h3 class="mt-2 font-bold text-gray-900 text-base leading-snug group-hover:text-gray-600 transition-colors">Crescere insieme</h3>
+              <p class="mt-2 text-sm text-gray-500 line-clamp-2">Tappe dello sviluppo, gioco e attività per accompagnare la crescita del tuo bambino.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MISSION / VISION / VALUES ===== -->
+    <section class="py-20 px-6">
+      <div class="max-w-screen-xl mx-auto space-y-24">
+
+        <!-- Mission -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Mission</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              Portare amore e scienza al servizio delle famiglie.
+            </h2>
+            <p class="text-gray-500 leading-relaxed">
+              La nostra missione è offrire prodotti di qualità superiore, sviluppati con rigore scientifico e guidati dall'amore per il benessere dei bambini e delle loro famiglie. Ogni prodotto è il risultato di ricerca, cura e impegno costante.
+            </p>
+          </div>
+          <div class="rounded-3xl overflow-hidden">
+            <img src="https://placehold.co/700x480/f5f0ea/888888?text=Mission" alt="Mission" class="w-full object-cover" />
+          </div>
+        </div>
+
+        <!-- Vision -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="rounded-3xl overflow-hidden order-2 md:order-1">
+            <img src="https://placehold.co/700x480/eaf0f5/888888?text=Vision" alt="Vision" class="w-full object-cover" />
+          </div>
+          <div class="order-1 md:order-2">
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Vision</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              Un futuro in cui ogni bambino cresce sano e felice.
+            </h2>
+            <p class="text-gray-500 leading-relaxed">
+              Immaginiamo un mondo in cui ogni famiglia abbia accesso a prodotti sicuri, naturali e scientificamente fondati. Lavoriamo ogni giorno per avvicinare questo futuro, un passo alla volta, con responsabilità e passione.
+            </p>
+          </div>
+        </div>
+
+        <!-- Values -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Valori</p>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+              Amore, scienza e bene comune.
+            </h2>
+            <p class="text-gray-500 leading-relaxed mb-6">
+              I nostri valori fondanti sono la guida di ogni nostra azione: l'amore come motore, la scienza come strumento, il bene comune come obiettivo. Questi principi si riflettono in ogni prodotto che realizziamo e in ogni relazione che costruiamo.
+            </p>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-gray-900 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span class="text-gray-600 text-sm">Qualità certificata e filiera trasparente</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-gray-900 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span class="text-gray-600 text-sm">Impegno per la sostenibilità ambientale</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-gray-900 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span class="text-gray-600 text-sm">Ricerca scientifica continua e rigorosa</span>
+              </li>
+            </ul>
+          </div>
+          <div class="rounded-3xl overflow-hidden">
+            <img src="https://placehold.co/700x480/f5eaf5/888888?text=Valori" alt="Valori" class="w-full object-cover" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8 px-6">
+      <div class="max-w-screen-xl mx-auto">
+
+        <!-- Main footer grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10 pb-12 border-b border-gray-700">
+
+          <!-- Company info -->
+          <div class="col-span-2 md:col-span-1">
+            <a href="#" class="text-2xl font-extrabold tracking-widest uppercase text-white mb-6 block">Ottima</a>
+            <p class="text-sm text-gray-400 leading-relaxed mb-4">Benessere a Misura di Bambino</p>
+            <address class="not-italic text-sm text-gray-400 space-y-2">
+              <p>Via Alfieri 8,<br />Sesto Fiorentino (FI)</p>
+              <p><a href="tel:+390554201405" class="hover:text-white transition-colors">055 4201405</a></p>
+              <p><a href="mailto:info@ottima.it" class="hover:text-white transition-colors">info@ottima.it</a></p>
+              <p class="text-gray-500">P.IVA: 05014810484</p>
+            </address>
+          </div>
+
+          <!-- Navigation -->
+          <div>
+            <h4 class="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-5">Navigazione</h4>
+            <ul class="space-y-3">
+              <li><a href="#" class="text-sm text-gray-300 hover:text-white transition-colors">Chi siamo</a></li>
+              <li><a href="#" class="text-sm text-gray-300 hover:text-white transition-colors">Prodotti</a></li>
+              <li><a href="#" class="text-sm text-gray-300 hover:text-white transition-colors">Per te, mamma</a></li>
+              <li><a href="#" class="text-sm text-gray-300 hover:text-white transition-colors">Shop</a></li>
+              <li><a href="#" class="text-sm text-gray-300 hover:text-white transition-colors">Contatti</a></li>
+            </ul>
+          </div>
+
+          <!-- Documents -->
+          <div>
+            <h4 class="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-5">Documenti</h4>
+            <ul class="space-y-3">
+              <li>
+                <a href="#" class="inline-flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  Codice etico
+                </a>
+              </li>
+              <li>
+                <a href="#" class="inline-flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  Politica sostenibilità
+                </a>
+              </li>
+              <li>
+                <a href="#" class="inline-flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  Whistleblowing
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social & Language -->
+          <div>
+            <h4 class="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-5">Seguici</h4>
+            <div class="flex gap-4 mb-8">
+              <a href="#" class="w-9 h-9 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition-colors">
+                <!-- Facebook -->
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="#" class="w-9 h-9 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition-colors">
+                <!-- Instagram -->
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="#" class="w-9 h-9 rounded-full bg-gray-700 hover:bg-gray-600 flex items-center justify-center transition-colors">
+                <!-- LinkedIn -->
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+
+            <h4 class="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-4">Lingua</h4>
+            <div class="flex gap-2 flex-wrap">
+              <button class="text-xs px-3 py-1.5 rounded-full bg-white text-gray-900 font-semibold">IT</button>
+              <button class="text-xs px-3 py-1.5 rounded-full bg-gray-700 hover:bg-gray-600 text-gray-300 font-semibold transition-colors">EN</button>
+              <button class="text-xs px-3 py-1.5 rounded-full bg-gray-700 hover:bg-gray-600 text-gray-300 font-semibold transition-colors">ES</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p class="text-xs text-gray-500">© 2024 Ottima S.r.l. — P.IVA 05014810484. Tutti i diritti riservati.</p>
+          <div class="flex gap-6">
+            <a href="#" class="text-xs text-gray-500 hover:text-gray-300 transition-colors">Privacy Policy</a>
+            <a href="#" class="text-xs text-gray-500 hover:text-gray-300 transition-colors">Cookie Policy</a>
+            <a href="#" class="text-xs text-gray-500 hover:text-gray-300 transition-colors">Termini e condizioni</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
